@@ -1,0 +1,58 @@
+﻿/*  
+	Prof-GererQuiz.css
+	Par : Mathieu Dumoulin
+	Date : 19/09/2014
+	Description : Contient le css qui est spécifique au HTML de la page Prof-GererQuiz.php 
+*/
+
+/* CSS propre au drop down list des cours */
+fieldset {
+    border:0;
+    width:25%;
+    margin-top:30px;
+    margin-left:3%;
+    padding:0;
+}
+
+#DDL_Cours {
+    width:100%;
+}
+
+/* CSS propre aux listes principales */
+#ListeQuiz {
+    margin-left:3%;
+    margin-top:0;
+    margin-right:0;
+}
+
+/*Div qui contient le ul - li - Bouton générer*/
+#QuizAleatoire{
+    margin-left:20%;
+    vertical-align: top;
+    margin-top:0;
+    margin-right:0;
+    height: 50%;
+}
+
+.ListeGererQuiz {
+    width:20%;
+    height:500px;
+    display:inline-block;
+}
+
+/* Label pour les listes principales */
+#LBL_ListesGererQuiz {
+    margin-left:5%;
+    width:90%;
+    text-align:center;
+    padding:10px;
+    font-size:x-large;
+}
+
+#GererQuiz {
+    float:left;
+    margin-left:6%;
+}
+
+
+
